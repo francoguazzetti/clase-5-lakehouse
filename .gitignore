@@ -1,0 +1,8 @@
+# Terraform: state holds account IDs and resource details, providers are large binaries
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Maven build output (the shaded jar exceeds GitHub's 100 MB limit)
+app/target/
